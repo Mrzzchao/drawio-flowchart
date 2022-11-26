@@ -1,1 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2022-11-26T14:46:58.879Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.4.0" etag="9lO9MJQk2pMSVWhIL0VU" type="github"><diagram id="s8YNTkBa5juS3jba4BAP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-26T14:48:49.900Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Tv7888wHPnqGALKicBl6" version="20.4.0" type="github">
+  <diagram id="s8YNTkBa5juS3jba4BAP" name="第 1 页">
+    <mxGraphModel dx="1776" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8p1qf892EN3NkbF0gtOS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" diagramName="Rectangle" diagramCategory="general" parent="1">
+          <mxGeometry x="800" y="380" width="210" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Microsoft Yahei&quot;&gt;&lt;span style=&quot;font-size: 21.3333px; font-variant-ligatures: normal;&quot;&gt;可读数据转换&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" diagramName="Rectangle" diagramCategory="general" parent="1">
+          <mxGeometry x="830" y="420" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-3" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=44;endSize=10;width=45;fillColor=#ffffff;" edge="1" diagramName="arrow" diagramCategory="general" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="624.5" as="sourcePoint" />
+            <mxPoint x="740" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-4" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8p1qf892EN3NkbF0gtOS-3">
+          <mxGeometry x="-0.2222" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-5" value="优化处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="8p1qf892EN3NkbF0gtOS-3">
+          <mxGeometry x="-0.2737" relative="1" as="geometry">
+            <mxPoint x="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Microsoft Yahei&quot;&gt;&lt;span style=&quot;font-size: 21.3333px; font-variant-ligatures: normal;&quot;&gt;分帧数据提取&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" diagramName="Rectangle" diagramCategory="general" parent="1">
+          <mxGeometry x="830" y="520" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Microsoft Yahei&quot;&gt;&lt;span style=&quot;font-size: 21.3333px; font-variant-ligatures: normal;&quot;&gt;调用栈构建&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" diagramName="Rectangle" diagramCategory="general" parent="1">
+          <mxGeometry x="830" y="620" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Microsoft Yahei&quot;&gt;&lt;span style=&quot;font-size: 21.3333px; font-variant-ligatures: normal;&quot;&gt;数据聚合&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" diagramName="Rectangle" diagramCategory="general" parent="1">
+          <mxGeometry x="830" y="720" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-9" value="逐帧数据" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FFFFCC;fontStyle=1;fontSize=16;" vertex="1" diagramName="Cylinder" diagramCategory="general" parent="1">
+          <mxGeometry x="360" y="560" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-10" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=44;endSize=10;width=45;" edge="1" diagramName="arrow" diagramCategory="general" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="619" as="sourcePoint" />
+            <mxPoint x="1170" y="619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-11" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8p1qf892EN3NkbF0gtOS-10">
+          <mxGeometry x="-0.2222" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-12" value="生成数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="8p1qf892EN3NkbF0gtOS-10">
+          <mxGeometry x="-0.3556" y="1" relative="1" as="geometry">
+            <mxPoint x="11" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-13" value="聚合数据" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#FFFFCC;fontStyle=1;fontSize=16;" vertex="1" diagramName="Cylinder" diagramCategory="general" parent="1">
+          <mxGeometry x="1210" y="550" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-14" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffffff;fontSize=16;width=39;endSize=12;endWidth=52;" edge="1" diagramName="arrow" diagramCategory="general" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="269.5" as="sourcePoint" />
+            <mxPoint x="750" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-15" value="模式转变" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="8p1qf892EN3NkbF0gtOS-14">
+          <mxGeometry x="-0.13" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-16" value="&lt;span style=&quot;font-family: &amp;quot;Microsoft Yahei&amp;quot;; font-size: 29px; font-variant-ligatures: normal; text-align: left;&quot;&gt;逐帧分析模式&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" diagramName="Rectangle" diagramCategory="general" parent="1">
+          <mxGeometry x="285" y="230" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8p1qf892EN3NkbF0gtOS-17" value="&lt;span style=&quot;font-family: &amp;quot;Microsoft Yahei&amp;quot;; font-size: 29px; font-variant-ligatures: normal; text-align: left;&quot;&gt;创新型的聚合分析模式&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" vertex="1" diagramName="Rectangle" diagramCategory="general" parent="1">
+          <mxGeometry x="800" y="230" width="500" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
